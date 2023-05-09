@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoJsonFormatter.ConsoleApp", "GeoJsonFormatter.ConsoleApp\GeoJsonFormatter.ConsoleApp.csproj", "{210ED98A-7C3B-41F7-9CAC-96F8B0D6AB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJsonFormatter", "GeoJsonFormatter\GeoJsonFormatter.csproj", "{A27F8E1D-C875-4676-AEF9-BD7040DA34A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJsonFormatter.Tests", "GeoJsonFormatter.Tests\GeoJsonFormatter.Tests.csproj", "{8C20CD2E-EFC8-4D96-8505-C2A5BEB2F549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{210ED98A-7C3B-41F7-9CAC-96F8B0D6AB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210ED98A-7C3B-41F7-9CAC-96F8B0D6AB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210ED98A-7C3B-41F7-9CAC-96F8B0D6AB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210ED98A-7C3B-41F7-9CAC-96F8B0D6AB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27F8E1D-C875-4676-AEF9-BD7040DA34A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27F8E1D-C875-4676-AEF9-BD7040DA34A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27F8E1D-C875-4676-AEF9-BD7040DA34A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27F8E1D-C875-4676-AEF9-BD7040DA34A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C20CD2E-EFC8-4D96-8505-C2A5BEB2F549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C20CD2E-EFC8-4D96-8505-C2A5BEB2F549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C20CD2E-EFC8-4D96-8505-C2A5BEB2F549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C20CD2E-EFC8-4D96-8505-C2A5BEB2F549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02E10CB7-578A-49F3-8725-718269C9951E}
+	EndGlobalSection
+EndGlobal
