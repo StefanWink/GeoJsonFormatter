@@ -2,10 +2,11 @@
 using System.Text.Json.Serialization;
 using FluentAssertions;
 using GeoJsonFormatter.Models;
+using NUnit.Framework;
 
 namespace GeoJsonFormatter.Tests.Deserializing;
 
-[TestClass]
+[TestFixture]
 public class MultiPolygonTests
 {
     private readonly JsonSerializerOptions options = new()
@@ -16,7 +17,7 @@ public class MultiPolygonTests
         }
     };
 
-    [TestMethod]
+    [Test]
     public void MultiPolygon()
     {
         // Arrange

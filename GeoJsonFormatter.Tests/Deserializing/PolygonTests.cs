@@ -2,10 +2,11 @@
 using System.Text.Json.Serialization;
 using FluentAssertions;
 using GeoJsonFormatter.Models;
+using NUnit.Framework;
 
 namespace GeoJsonFormatter.Tests.Deserializing;
 
-[TestClass]
+[TestFixture]
 public class PolygonTests
 {
     private readonly JsonSerializerOptions options = new()
@@ -16,7 +17,7 @@ public class PolygonTests
         }
     };
 
-    [TestMethod]
+    [Test]
     public void Polygon()
     {
         // Arrange
@@ -45,7 +46,7 @@ public class PolygonTests
         geometry.Should().BeOfType<Polygon>();
     }
 
-    [TestMethod]
+    [Test]
     public void Polygon_with_hole()
     {
         // Arrange
